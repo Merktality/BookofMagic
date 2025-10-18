@@ -12,14 +12,34 @@
 -->
 
 <head>
+<meta name="viewport" content="width=device=width, initial-scale=1.0">
 	<!--put stuff here later-->
+<style>
+	.grid-container {
+		display: grid;
+		grid-template-columns: 33.33% 33.33% 33.33%;
+		}
+</style>
 </head>
 <body style="background-image:url('images/sparkle.gif');background-color:black;border:5px ridge #f4c425;text-align:center;margin:30px;">
-	<h1 style="color:#f4c425;padding:50px;font-size:400%;font-family:cursive;">Book of Magic</h1>
-	<p><img src="images/BoM.jpg" style="width:600px;align-center;"></p>
+	<div style="width:700px;max-width:60%;margin:auto;">
+		<h1 style="color:#f4c425;font-size:clamp(35px, 5vw, 88px);font-family:cursive;">Book of Magic</h1>
+	</div>
+	<p><img src="images/BoM.jpg" style="width:700px;max-width:60%;align-center;"></p>
+	<div style="width:700px;max-width:60%;margin:auto;">
+		<p style="color:#f4c425;font-size:clamp(20px, 3vw, 40px);font-family:cursive;"> Presented by Nonchalant, E.T., and LongSleeve </p>
+	</div>
+	<div class="grid-container" style="width:700px;max-width:60%;margin:auto;">
+		<div style="margin:auto;"><a href="https://open.spotify.com/album/1oXfIQ2uq4WXbnCJPpwewT"><img src="images/BoM_spotify.png" style="width:50%;"></a></div>
+		<div style="margin:auto;"><a href="https://music.youtube.com/playlist?list=OLAK5uy_lkpXPeSB1BzgvlnPTRZKHhg3reqJa_HOQ"><img src="images/BoM_youtube.png" style="width:50%;"></a></div>
+		<div style="margin:auto;"><a href="https://music.apple.com/mn/album/book-of-magic/1843353561"><img src="images/BoM_apple.png" style="width:50%;"></a></div>
+	</div>
 	<br>
-	<p style="color:#f4c425;font-size:200%;font-family:cursive;"> Presented by Nonchalant, E.T., and LongSleeve </p>
-	<br>
-	<p><img src="images/BoM_spotify.png" style=";width:10%;"><img src="images/BoM_youtube.png" style=";width:10%;"><br>Tidle?<br>other</p>
+	<!--
+	<h2 style="color:#f4c425;font-size:clamp(15px, 3vw, 35px);font-family:cursive;">Support the artist</h2>
+	<div style="color:#f4c425;text-align:left;width:700px;max-width:60%;margin:auto;border:1px solid white;">Nonchalant | IG | Twitter | Twitch | Spotify | Soundcloud</div>
+	<div style="color:#f4c425;text-align:left;width:700px;max-width:60%;margin:auto;border:1px solid white;">E.T. | IG | Twitter | Twitch | Spotify | Soundcloud</div>
+	<div style="color:#f4c425;text-align:left;width:700px;max-width:60%;margin:auto;border:1px solid white;">LongSleeve | IG | Twitter | Twitch | Spotify | Soundcloud</div>
+	-->
 </body>
 </html>
